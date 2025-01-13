@@ -8,8 +8,80 @@
 
 h1 {
     font-family: Luckiest Guy;
+    font-weight: normal;
 }
 
 p, h2, div {
     font-family: Open Sans;
+}
+
+header {
+    background-image: url(assets/backgorund-header.png);
+    background-position: center bottom;
+    color: white;
+}
+
+header h1 {
+    width: 278px;
+    font-size: 1.8rem;
+    letter-spacing: 0.1rem;
+    margin-bottom: 10px;
+}
+
+header p {
+    width: 381px;
+    font-size: 1rem;
+}
+
+.header-content {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 20px;
+}
+
+.buttons {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.button {
+    text-align: center;
+    border-radius: 30px;
+    padding: 15px 10px;
+}
+
+.windows {
+    background-color: white;
+    color: black;   
+}
+
+.navegador {
+    background-color: #23272A;
+}
+
+section {
+    padding: 50px 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+section img {
+    width: 100%;
+}
+
+footer {
+    background-color: #23272A;
+    height: 140px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
