@@ -85,3 +85,9 @@ footer {
     justify-content: center;
     align-items: center;
 }
+
+.text-content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}

@@ -23,15 +23,31 @@
     .button {
         width: 25%;
     }
+
+    .text-content {
+        text-align: center;
+        width: 90%;
+        margin: auto;
+    }
+
+    .text-content h2, h1 {
+        font-size: 2.2rem;
+    }
+
+    main img {
+        width: 70%;
+        margin: auto;
+    }
 }
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 1156px) {
     .header-content {
         text-align: center;
     }
 
     header {
         background-size: cover;
+        margin: auto;
     }
 
     header h1 {
