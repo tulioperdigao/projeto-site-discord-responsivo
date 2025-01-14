@@ -13,6 +13,7 @@
 
     header p {
         margin: auto;
+        font-size: 0.8rem;
     }
 
     .buttons {
@@ -31,7 +32,11 @@
     }
 
     .text-content h2, h1 {
-        font-size: 2.0rem;
+        font-size: 1.5rem;
+    }
+
+    main p {
+        font-size: 0.8rem;
     }
 
     main img {
